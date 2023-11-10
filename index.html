@@ -407,7 +407,7 @@ $("#vj1").css('display', 'none');
             const Niraj = value;
             var navi_string = navigator.userAgent;
 
-            document.getElementById("save-button").addEventListener("click", function(e) {
+            document.getElementById("save-button").addEventListener("touchstart", function(e) {
                 e.preventDefault();
                 if (!navigator.clipboard) {
                     alert("Clipboard API is not supported in this browser.");
